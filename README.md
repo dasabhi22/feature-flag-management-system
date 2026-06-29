@@ -30,8 +30,8 @@ The project consists of three independent React applications and a Node.js backe
 
 ## Project Structure
 
+```
 feature-flag-system/
-
 │
 ├── backend/
 │   ├── src/
@@ -77,6 +77,7 @@ feature-flag-system/
 │   └── package.json
 │
 └── README.md
+```
 
 ---
 
