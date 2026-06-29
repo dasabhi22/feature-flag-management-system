@@ -1,5 +1,25 @@
-node_modules/
-.env
-dist/
-build/
+# Dependencies
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+
+# Build output
+**/dist/
+**/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor files
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

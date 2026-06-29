@@ -32,7 +32,7 @@ function Login({ onLogin }) {
         <div className="mb-8">
           <span className="text-xs font-bold tracking-widest text-violet-400 uppercase">System Control</span>
           <h1 className="text-3xl font-bold text-white mt-1">Super Admin</h1>
-          <p className="text-slate-400 mt-1 text-sm">Restricted access — authorized personnel only</p>
+          <p className="text-slate-400 mt-1 text-sm">Restricted access - authorized personnel only</p>
         </div>
         {error && <div className="bg-red-900/50 border border-red-500 text-red-300 px-4 py-3 rounded-lg mb-4 text-sm">{error}</div>}
         <form onSubmit={handleSubmit} className="space-y-4">
