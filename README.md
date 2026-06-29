@@ -33,93 +33,49 @@ The project consists of three independent React applications and a Node.js backe
 feature-flag-system/
 
 │
-
 ├── backend/
-
 │   ├── src/
-
 │   │   ├── middleware/
-
 │   │   │   └── auth.js
-
 │   │   ├── routes/
-
 │   │   │   ├── auth.js
-
 │   │   │   ├── organizations.js
-
 │   │   │   └── flags.js
-
 │   │   ├── db.js
-
 │   │   ├── index.js
-
 │   │   └── seedSuperAdmin.js
-
 │   ├── .env
-
 │   └── package.json
-
 │
-
 ├── super-admin-app/
-
 │   ├── src/
-
 │   │   ├── api.js
-
 │   │   ├── App.jsx
-
 │   │   ├── index.css
-
 │   │   └── main.jsx
-
 │   ├── index.html
-
 │   ├── vite.config.js
-
 │   └── package.json
-
 │
-
 ├── admin-app/
-
 │   ├── src/
-
 │   │   ├── api.js
-
 │   │   ├── App.jsx
-
 │   │   ├── index.css
-
 │   │   └── main.jsx
-
 │   ├── index.html
-
 │   ├── vite.config.js
-
 │   └── package.json
-
 │
-
 ├── user-app/
-
 │   ├── src/
-
 │   │   ├── App.jsx
-
 │   │   ├── index.css
-
 │   │   └── main.jsx
-
 │   ├── index.html
-
 │   ├── vite.config.js
-
 │   └── package.json
-
 │
-
 └── README.md
 
 ---
